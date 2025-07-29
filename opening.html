@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Undangan Pernikahan David & Nayla</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Parisienne&family=Cormorant:ital@1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <!-- Custom Font Classes -->
+  <style>
+    .font-garamond {
+      font-family: 'EB Garamond', serif;
+    }
+    .font-Parisienne {
+      font-family: 'Parisienne', cursive;
+    }
+    .font-Cormorant {
+      font-family: 'Cormorant', serif;
+    }
+  </style>
+</head>
+<body class="text-gray-800 font-serif">
+
+  <!-- BAGIAN COVER -->
+  <div class="relative w-full h-screen overflow-hidden">
+    <!-- Background Gambar -->
+    <img src="heading_desktop.jpg" alt="Undangan" class="hidden md:block absolute w-full h-full object-cover z-0" />
+    <img src="heading_mobile.jpg" alt="Undangan Mobile" class="block md:hidden absolute w-full h-full object-cover z-0" />
+
+    <!-- Overlay -->
+    <div class="absolute inset-0 bg-black bg-opacity-30 z-10"></div>
+
+    <!-- Teks untuk Desktop -->
+    <div class="hidden md:block absolute bottom-16 left-16 text-white drop-shadow-[0_1px_4px_rgba(0,0,0,0.8)] text-center z-20 max-w-md">
+      <h2 class="text-xl font-light font-garamond tracking-[.3em]">THE WEDDING OF</h2>
+      <h1 class="text-[60px] leading-none mt-2 font-Parisienne">David & Nayla</h1>
+      <p class="mt-4 text-xl font-garamond tracking-widest">08 • Agustus • 2028</p>
+    </div>
+
+    <!-- Teks untuk Mobile -->
+    <div class="block md:hidden absolute top-8 w-full text-center text-white z-20 px-4">
+      <h2 class="text-xs font-garamond tracking-widest">THE WEDDING OF</h2>
+      <h1 class="text-4xl mt-1 font-Parisienne">David & Nayla</h1>
+      <p class="mt-1 text-sm font-garamond tracking-widest">08 • Agustus • 2028</p>
+    </div>
+
+    <!-- Teks Nama Tamu -->
+    <div class="absolute bottom-8 md:bottom-16 w-full md:w-auto text-center md:text-right text-white drop-shadow-[0_1px_4px_rgba(0,0,0,0.8)] z-20 px-4 md:right-16">
+      <p class="text-sm md:text-base font-light">Kepada Yth.<br>Bapak/Ibu/Saudara/i</p>
+      <p class="text-lg md:text-2xl font-bold mt-1">Daneswara</p>
+    </div>
+  </div>
+
+  <!-- Bagian bawah heading -->
+<div class="bg-[url('Background1.png')] bg-cover bg-center text-center py-12 px-4">
+
+    <!-- Bunga Atas -->
+    <div class="mt-2 md:mt-4">
+      <img src="bunga.png" alt="bunga dekorasi" class="mx-auto w-48 md:w-72" />
+    </div>
+
+    <!-- Salam & Ucapan -->
+    <div class="mt-2 md:mt-4 max-w-xl mx-auto">
+      <h1 class="italic font-semibold text-lg md:text-xl">Assalamualaikum Wr. Wb</h1>
+      <p class="mt-2 text-sm md:text-base">
+        Dengan memohon Rahmat dan Ridho Allah SWT kami bermaksud untuk mengundang Bapak/Ibu/Saudara/i untuk menghadiri acara pernikahan kami:
+      </p>
+    </div>
+
+    <!-- Profil Pengantin -->
+    <div class="mt-10">
+      <div class="bg-[#f0efeb] p-6 md:p-10 rounded-xl shadow-md inline-block md:flex md:justify-center md:gap-10">
+
+        <!-- David -->
+        <div class="text-center mb-6 md:mb-0">
+          <img src="pria.jpg" alt="David" class="w-32 h-32 mx-auto rounded-full object-cover" />
+          <h2 class="mt-2 font-Cormorant italic text-lg md:text-xl">David Bintara Danwarta</h2>
+          <p class="text-sm font-semibold">Putra Bapak & Ibu</p>
+          <img src="ig.png" alt="instagram" class="w-5 mx-auto mt-1" />
+        </div>
+
+        <!-- Ikon Cincin -->
+        <i class="fa-solid fa-ring text-[#778D80] text-[24px] font-semibold"></i>
+
+
+        <!-- Nayla -->
+        <div class="text-center">
+          <img src="wanita.jpg" alt="Nayla" class="w-32 h-32 mx-auto rounded-full object-cover" />
+          <h2 class="mt-2 font-Cormorant italic text-lg md:text-xl">Nayla Zahria Damaris</h2>
+          <p class="text-sm font-semibold">Putri Bapak & Ibu</p>
+          <img src="ig.png" alt="instagram" class="w-5 mx-auto mt-1" />
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
