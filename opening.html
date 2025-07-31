@@ -113,59 +113,53 @@
   </div>
 </div>
 
-
       </div>
     </div>
   </div>
-</body>
-</html>
 
-<!DOCTYPE html>
-<html lang="id">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Undangan Pernikahan</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <style>
-    body {
-      font-family: 'Georgia', serif;
-    }
-  </style>
-</head>
-<body class="bg-gray-100 flex justify-center items-center min-h-screen p-4">
-
-  <!-- Container utama -->
-  <div class="w-full max-w-sm md:max-w-md bg-white shadow-xl rounded-lg overflow-hidden">
-    
-    <!-- Gambar bunga atas -->
-    <div class="-mt-6 md:-mt-8">
-      <img src="bunga.png" alt="Bunga Atas" class="mx-auto w-28 md:w-32" />
-    </div>
-
-    <!-- AKAD Section -->
-    <div class="text-center px-6 py-8 bg-gray-50 rounded-b-[80px] md:rounded-b-[100px]">
-      <h2 class="text-2xl md:text-3xl italic font-semibold mb-3">Akad Nikah</h2>
-      <p class="text-sm md:text-base">Selasa, 08 Agustus 2028<br>08:00 WIB</p>
-      <p class="font-semibold italic mt-2">Grand Mosque</p>
-      <p class="text-sm md:text-base mb-4">Jl. Binsa No. 12, Jakarta Selatan</p>
-      <a href="#" class="inline-block bg-gray-600 hover:bg-gray-700 text-white text-sm md:text-base px-4 py-2 rounded-md transition">Lihat Lokasi</a>
-    </div>
-
-    <!-- Gambar Pasangan -->
-    <div class="px-6 mt-6">
-      <img src="pasangan.jpg" alt="Pasangan" class="rounded-xl w-full shadow-md" />
-    </div>
-
-    <!-- RESEPSI Section -->
-    <div class="text-center px-6 py-8">
-      <h2 class="text-2xl md:text-3xl italic font-semibold mb-3">Resepsi</h2>
-      <p class="text-sm md:text-base">Rabu, 09 Agustus 2028<br>08:00 WIB</p>
-      <p class="font-semibold italic mt-2">Nagla's Home</p>
-      <p class="text-sm md:text-base mb-4">Jl. Binsa No. 12, Jakarta Selatan</p>
-      <a href="#" class="inline-block bg-gray-600 hover:bg-gray-700 text-white text-sm md:text-base px-4 py-2 rounded-md transition">Lihat Lokasi</a>
-    </div>
+  <!-- RSVP SECTION -->
+<section class="bg-cover bg-center py-10 px-4 text-center bg-[url('/img/bg-rsvp.jpg')]">
+  <h2 class="bg-[#A7B9A1] p-4 md:p-6 rounded-sm shadow-sm w-full mx-auto font-Parisienne text-xl md:text-4xl mb-4 text-[#3e5744]">
+    Love is in the air
+  </h2>
+  
+  <div class="max-w-md mx-auto mb-6 rounded-xl overflow-hidden shadow-lg">
+    <img src="/img/rs.jpg" alt="RSVP Couple" class="w-full object-cover" />
   </div>
+
+  <!-- Form -->
+  <div class="max-w-md mx-auto bg-white bg-opacity-80 backdrop-blur-md rounded-xl p-6 shadow">
+    <h3 class="text-2xl font-semibold mb-4">RSVP</h3>
+    <p class="text-sm text-gray-700 mb-6">
+      Merupakan suatu kehormatan dan kebahagiaan bagi kami sekeluarga apabila Bapak/Ibu/Saudara/i berkenan hadir dan memberikan doa restu pada kami. Untuk keperluan data tamu, kami sangat mengharapkan konfirmasi kehadiran.
+    </p>
+    <form>
+      <input type="text" placeholder="Nama" class="w-full mb-4 p-2 border rounded" />
+      
+      <label class="block mb-1 text-left text-sm font-medium">Jumlah Tamu Undangan</label>
+      <select class="w-full mb-4 p-2 border rounded">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+      </select>
+      
+      <label class="block mb-1 text-left text-sm font-medium">Konfirmasi Kehadiran</label>
+      <div class="flex flex-col items-start mb-4 space-y-2">
+        <label class="flex items-center space-x-2">
+          <input type="radio" name="kehadiran" />
+          <span>Hadir</span>
+        </label>
+        <label class="flex items-center space-x-2">
+          <input type="radio" name="kehadiran" />
+          <span>Maaf, saya tidak bisa hadir</span>
+        </label>
+      </div>
+      
+      <button type="submit" class="w-full bg-[#A7B9A1] hover:bg-[#90a48a] text-white py-2 rounded">Submit</button>
+    </form>
+  </div>
+</section>
+
 
 </body>
 </html>
