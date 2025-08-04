@@ -2,7 +2,7 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" > 
   <title>Undangan Pernikahan David & Nayla</title>
 
   <!-- Tailwind CSS CDN -->
@@ -161,63 +161,122 @@
     </div>
   </div>
 
-  <!-- KIRI: DESKTOP (melengkung ke atas) -->
-  <div class="min-h-screen flex flex-col md:flex-row justify-center items-center gap-4 p-4">
-  <div class="hidden md:block w-[1000px] bg-[#A7B9A1]/10 rounded-t-[600px] overflow-hidden shadow-xl justify-center ">
+<!-- WRAPPER UTAMA -->
+<div class="min-h-screen flex flex-col md:flex-row justify-center items-center gap-4 p-4">
+
+  <!-- DESKTOP VIEW -->
+  <div class="hidden md:block w-[1000px] bg-[#A7B9A1]/10 rounded-t-[600px] overflow-hidden shadow-xl justify-center">
     <!-- Akad -->
     <div class="px-6 pt-20 text-center justify-center">
-      <h2 class="mt-12  text-7xl font-Parisienne">Akad Nikah</h2>
+      <h2 class="mt-12 text-7xl font-Parisienne">Akad Nikah</h2>
       <p class="mt-2 text-xl font-cormorant">Selasa, 08 Agustus 2028<br>08.00 WIB</p>
-      <p class="font-lg  font-playball mt-2 text-3xl">Grand Mosque</p>
+      <p class="font-lg font-playball mt-2 text-3xl">Grand Mosque</p>
       <p class="text-lg font-playball text-3xl">Jl. Biasa No. 12, Jakarta Selatan</p>
       <button class="mt-3 bg-[#2F3B53] text-white px-4 py-2 rounded-md font-cormorant">Lihat Lokasi</button>
     </div>
+
     <!-- Gambar -->
-<div class="mt-6 px-6 flex justify-center">
-  <img src="img/enam.jpg" alt="couple" class="rounded-lg w-[800px] shadow-md" />
-</div>
-
-
-   <!-- Resepsi -->
-<div class="px-6 pt-6 pb-10 text-center">
-  <h2 class="font-script text-7xl font-Parisienne">Resepsi</h2>
-  <p class="mt-2 text-2xl font-cormorant">Rabu, 09 Agustus 2028<br>08.00 WIB</p>
-  <p class="font-lg mt-2 font-playball text-3xl">Nayla's Home</p>
-  <p class="text-lg font-playball text-3xl">Jl. Biasa No. 12, Jakarta Selatan</p>
-  <button class="mt-3 bg-[#2F3B53] text-white px-4 py-2 rounded-md font-cormorant">Lihat Lokasi</button>
-</div>
-
-
-  <!-- KANAN: MOBILE (kartu ringkas) -->
-  <div class="md:hidden bg-white rounded-xl shadow-lg overflow-hidden max-w-[320px] w-full text-center mx-auto">
-    <!-- Header -->
-    <div class="bg-gray-100 p-4 text-sm">
-      <p class="uppercase tracking-wide text-gray-600">Save The Date</p>
-      <h1 class="font-script text-2xl">David & Nayla</h1>
+    <div class="mt-6 px-6 flex justify-center">
+      <img src="img/enam.jpg" alt="couple" class="rounded-lg w-[800px] shadow-md" />
     </div>
-
-    <!-- Akad -->
-    <div class="border-t border-gray-300 px-6 py-4">
-      <h2 class="font-script text-xl">Akad Nikah</h2>
-      <p class="text-sm mt-1">Selasa | 08 | 2028</p>
-      <p class="text-xs mt-1">08.00 WIB</p>
-      <p class="text-xs italic text-[#2F3B53] font-semibold">Grand Mosque</p>
-      <p class="text-xs">Jl. Biasa No. 12, Jakarta Selatan</p>
-    </div>
-
-    <hr class="border-gray-200" />
 
     <!-- Resepsi -->
-    <div class="px-6 py-4">
-      <h2 class="font-script text-xl">Resepsi</h2>
-      <p class="text-sm mt-1">Rabu | 09 | 2028</p>
-      <p class="text-xs mt-1">08.00 WIB</p>
-      <p class="text-xs italic text-[#2F3B53] font-semibold">Nayla's Home</p>
-      <p class="text-xs">Jl. Biasa No. 12, Jakarta Selatan</p>
+    <div class="px-6 pt-6 pb-10 text-center">
+      <h2 class="font-script text-7xl font-Parisienne">Resepsi</h2>
+      <p class="mt-2 text-2xl font-cormorant">Rabu, 09 Agustus 2028<br>08.00 WIB</p>
+      <p class="font-lg mt-2 font-playball text-3xl">Nayla's Home</p>
+      <p class="text-lg font-playball text-3xl">Jl. Biasa No. 12, Jakarta Selatan</p>
+      <button class="mt-3 bg-[#2F3B53] text-white px-4 py-2 rounded-md font-cormorant">Lihat Lokasi</button>
     </div>
   </div>
 
+  <!-- MOBILE VIEW (baru) -->
+  <div class="md:hidden w-full max-w-[360px] mx-auto text-center text-[#3e5744]">
+
+    <!-- Judul -->
+    <div class="mb-4">
+      <p class="text-sm italic">Save The Date</p>
+      <h1 class="text-2xl font-Parisienne">David & Nayla</h1>
+      <p class="text-sm font-garamond">08/08/2028</p>
+    </div>
+
+    <!-- Countdown -->
+    <div class="flex justify-center gap-4 mb-6 text-xs">
+      <div>
+        <p class="font-bold text-lg">00</p>
+        <p>Hari</p>
+      </div>
+      <div>
+        <p class="font-bold text-lg">00</p>
+        <p>Jam</p>
+      </div>
+      <div>
+        <p class="font-bold text-lg">00</p>
+        <p>Menit</p>
+      </div>
+      <div>
+        <p class="font-bold text-lg">00</p>
+        <p>Detik</p>
+      </div>
+    </div>
+
+    <div class="bg-[#A7B9A1] rounded-[150px] px-4 py-6 max-w-xs mx-auto space-y-6">
+      <!-- Akad Nikah -->
+      <div class="text-center">
+        <div class="flex justify-center mb-2">
+          <img src="img/cincin.png" alt="Akad Icon" class="h-16" /> <!-- Ganti dengan icon sesuai -->
+        </div>
+        <h3 class="font-Parisienne text-4xl mb-2">Akad Nikah</h3>
+        <div class="px-16">
+          <div class="flex items-center justify-between gap-4 font-medium">
+          
+            <!-- Hari -->
+            <span class="pt-6 font-garamond text-xl">Selasa</span>
+        
+            <!-- Tanggal dan Bulan -->
+            <div class="text-center w-12">
+              <p class="justify-center text-3xl pt-12 font-garamond">[08]</p> <!-- pt sama seperti hari dan tahun -->
+              <p class="text-sm font-garamond">Agustus</p> <!-- bulan di bawah tanggal -->
+            </div>
+        
+            <!-- Tahun -->
+            <span class="pt-6 font-garamond text-xl">2028</span>
+          </div>
+        </div>
+      
+        <p class="mt-2 text-lg font-garamond">08.00 WIB</p>
+        <p class="italic text-sm font-garamond " >Grand Mosque</p>
+        <p class="text-sm">Jl. Binus No. 12, Jakarta Selatan</p>
+        <button class="mt-2 bg-[#5B5F97] text-white text-sm px-3 py-1 rounded-full">Lihat Lokasi</button>
+      </div>
+    
+      <!-- Resepsi -->
+      <div class="text-center">
+        <div class="flex justify-center mb-2">
+          <img src="icon-resepsi.png" alt="Resepsi Icon" class="h-8" /> <!-- Ganti dengan icon sesuai -->
+        </div>
+        <h3 class="font-script text-xl mb-2">Resepsi</h3>
+    
+        <div class="flex items-center justify-between text-sm font-medium">
+          <span>Selasa</span>
+          <div class="text-center">
+            <p class="text-2xl font-bold">[08]</p>
+            <p class="text-sm">Agustus</p>
+          </div>
+          <span>2028</span>
+        </div>
+    
+        <p class="mt-2 text-sm">08.00 WIB</p>
+        <p class="italic text-sm">Grand Mosque</p>
+        <p class="text-sm">Jl. Binus No. 12, Jakarta Selatan</p>
+        <button class="mt-2 bg-[#5B5F97] text-white text-sm px-3 py-1 rounded-full">Lihat Lokasi</button>
+      </div>
+    </div>
+    
+  </div>
 </div>
+
+
 <!-- RSVP SECTION -->
 <section class="py-10 px-0 text-center">
 
@@ -309,19 +368,19 @@
     <!-- MOBILE (1 kolom dengan variasi layout) -->
     <div class="flex flex-col gap-4 md:hidden">
       <!-- 1a -->
-      <img src="/img/gallery1.jpg" alt="Gallery 1"
+      <img src="/img/glr2.jpg" alt="Gallery 1"
            class="w-full h-[160px] object-cover rounded-xl shadow" />
 
       <!-- 2 (2 gambar dalam 1 baris) -->
       <div class="flex gap-4">
-        <img src="/img/gallery2.jpg" alt="Gallery 2"
+        <img src="/img/enam.jpg" alt="Gallery 2"
              class="w-1/2 h-[120px] object-cover rounded-xl shadow" />
-        <img src="/img/gallery3.jpg" alt="Gallery 3"
+        <img src="/img/rsvp.jpg" alt="Gallery 3"
              class="w-1/2 h-[120px] object-cover rounded-xl shadow" />
       </div>
 
       <!-- 1b -->
-      <img src="/img/gallery4.jpg" alt="Gallery 4"
+      <img src="/img/empat.jpg" alt="Gallery 4"
            class="w-full h-[160px] object-cover rounded-xl shadow" />
 
       <!-- 1c -->
@@ -335,4 +394,4 @@
 
   </section>
 </body>
-</html> 
+</html>
