@@ -281,14 +281,14 @@
 <section class="py-10 px-0 text-center">
 
   <!-- Full-width gradient background title -->
-  <div class="w-screen bg-gradient-to-r from-[#7C9084] to-[#40584A] py-4 md:py-6 shadow-md mb-14">
+  <div class="w-screen bg-gradient-to-r from-[#7C9084] to-[#40584A] py-4 md:py-4 shadow-md mb-14 mt-24">
     <h2 class="font-Parisienne text-xl md:text-4xl text-white">
       Love is in the air
     </h2>
   </div>
 
   <!-- Card: Glassmorphism Style -->
-  <div class="relative max-w-4xl mx-auto bg-[#5B8154]/20 backdrop-blur-lg rounded-3xl p-10 shadow-xl border border-white/30">
+  <div class="relative max-w-4xl mx-auto bg-[#5B8154]/20 backdrop-blur-lg rounded-3xl p-10 shadow-xl border border-white/30 mt-4">
 
     <!-- Bunga Dekoratif Responsif di Pojok Kiri Atas -->
     <img src="/img/bunga rsvp.png" alt="Bunga Hias" 
@@ -343,9 +343,9 @@
 </section>
 
 <!-- GALLERY SECTION -->
-<section class="relative py-10 px-4">
+<section class="relative py-10 px-4 mt-12">
   <!-- Judul -->
-  <h2 class="font-Parisienne text-3xl md:text-4xl text-center mb-8 text-[#3e5744]">Gallery</h2>
+  <h2 class="font-Parisienne text-4xl md:text-5xl text-center mb-8 text-[#3e5744]">Gallery</h2>
 
   <!-- Wrapper -->
   <div class="max-w-5xl mx-auto bg-[#A7B9A1]/40 backdrop-blur-md p-6 md:p-10 rounded-2xl shadow-lg">
@@ -391,6 +391,176 @@
   </div>
 </section>
 
+<!-- WEDDING GIFT SECTION -->
+<section class="relative w-full sm:w-[90%] md:w-[75%] lg:w-[60%] mx-auto bg-cover bg-center py-12 px-4 overflow-hidden mt-24">
+
+  <!-- Card Background dengan bunga -->
+  <div class="absolute inset-0 z-0 bg-[#e7eee5] rounded-2xl border border-[#c4d0c2]">
+
+    <!-- Bunga Kanan Atas -->
+    <img src="/img/bungaats.png" alt="Bunga Kanan" class="absolute bottom-34 right-20 left-38 w-[180px] sm:w-[200px] md:w-[230px] lg:w-[260px] pointer-events-none select-none">
+
+    <!-- Bunga Kiri Bawah -->
+    <img src="/img/bungabwh2.png" alt="Bunga Kiri" class="absolute bottom-0 left-20 w-[180px] sm:w-[200px] md:w-[230px] lg:w-[260px] pointer-events-none select-none ">
+  </div>
+
+  <!-- Card Utama -->
+<div class="relative w-[65%] mx-auto bg-[#A7B9A1]/40 backdrop-blur-md min-h-[380px] p-8 rounded-[65px] border-8 border-[#43623E] shadow-lg z-10 text-center">
+    <h2 class="font-Parisienne text-5xl text-[#1E2B1C] mb-4 pt-12">Wedding Gift</h2>
+    <p class="text-[#625F55] mb-6 pt-4">Bagi yang ingin memberikan tanda kasih, dapat mengirimkan melalui fitur di bawah ini:</p>
+
+    <button id="openGift" class="bg-[#5B715B] hover:bg-[#4b604d] text-white py-2 px-6 rounded-full inline-flex items-center gap-2 transition">
+      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+        <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884zM18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+      </svg>
+      KIRIM HADIAH
+    </button>
+  </div>
+
+  <!-- Card Hadiah Detail (Hidden by Default) -->
+  <div id="giftCard" class="fixed top-0 right-0 w-full md:w-[400px] h-full bg-[#A7B9A1]/60 backdrop-blur-md border-l border-[#4F5E75]/30 shadow-2xl z-50 p-6 translate-x-full transition-transform duration-500 ease-in-out">
+
+    <!-- Close Button -->
+    <button id="closeGift" class="absolute top-4 right-4 text-[#4F5E75] text-2xl font-bold hover:text-[#333]">&times;</button>
+
+    <h3 class="font-Parisienne text-2xl text-center mb-6 text-[#000000]">Tanda Kasih</h3>
+
+    <!-- Kartu Bank -->
+<div class="space-y-4 text-[#625F55]">
+
+  <!-- BCA -->
+  <div class="bg-white p-4 rounded-[25px] border-2 border-[#000000] shadow-md">
+    <div class="flex items-center justify-between mb-2">
+      <img src="/img/bca.png" alt="BCA" class="h-8" />
+      <span class="text-sm font-semibold">a.n. Bintara Danuarta</span>
+    </div>
+    <div class="flex items-center justify-between bg-gray-100 rounded-md px-3 py-2">
+      <p class="font-medium text-sm" id="bca">1234 5678 9012 3456</p>
+      <button onclick="copyToClipboard('bca')" class="text-[#4F5E75] hover:text-[#2f3a4f] text-xs font-semibold">Salin</button>
+    </div>
+  </div>
+
+  <!-- Mandiri -->
+  <div class="bg-white p-4 rounded-[25px] border-2 border-[#000000] shadow-md">
+    <div class="flex items-center justify-between mb-2">
+      <img src="/img/mandiri.png" alt="Mandiri" class="h-8" />
+      <span class="text-sm font-semibold">a.n. Bintara Danuarta</span>
+    </div>
+    <div class="flex items-center justify-between bg-gray-100 rounded-md px-3 py-2">
+      <p class="font-medium text-sm" id="mandiri">1234 5678 9012 3456</p>
+      <button onclick="copyToClipboard('mandiri')" class="text-[#4F5E75] hover:text-[#2f3a4f] text-xs font-semibold">Salin</button>
+    </div>
+  </div>
+
+  <!-- BRI -->
+  <div class="bg-white p-4 rounded-[25px] border-2 border-[#000000] shadow-md">
+    <div class="flex items-center justify-between mb-2">
+      <img src="/img/bri.png" alt="BRI" class="h-8" />
+      <span class="text-sm font-semibold">a.n. Zahira Damaris</span>
+    </div>
+    <div class="flex items-center justify-between bg-gray-100 rounded-md px-3 py-2">
+  <p class="font-medium text-sm leading-none text-gray-800" id="bri">1234 5678 9012 3456</p>
+  <button onclick="salinRekening('1234567890123456')" class="text-sm font-semibold text-gray-600 hover:text-gray-800">
+    Salin
+  </button>
+</div>
+</div>
+
+
+    <!-- Penutup -->
+    <div class="bg-[#4F5E75]/10 text-center mt-6 p-4 rounded-[30px] border-8 border-[#43623E]">
+      <p class="text-sm">Atas apresiasi yang telah diberikan,<br />kami ucapkan terima kasih. Semoga Allah SWT membalas kebaikan Anda dengan berkah yang melimpah. 🤍</p>
+    </div>
+  </div>
+
+</section>
+
+<!-- SCRIPT -->
+<script>
+  const openBtn = document.getElementById('openGift');
+  const closeBtn = document.getElementById('closeGift');
+  const giftCard = document.getElementById('giftCard');
+
+  openBtn.addEventListener('click', () => {
+    giftCard.classList.remove('translate-x-full');
+  });
+
+  closeBtn.addEventListener('click', () => {
+    giftCard.classList.add('translate-x-full');
+  });
+
+  function copyToClipboard(id) {
+    const text = document.getElementById(id).innerText;
+    navigator.clipboard.writeText(text).then(() => {
+      alert('Nomor rekening disalin!');
+    });
+  }
+</script>
+
+<!--ucapan&doa-->
+
+<section class="py-10 px-4 relative pt-[200px]">
+  <div class="w-[80%] mx-auto bg-white rounded-[30px] shadow-lg p-6 sm:p-10 relative z-10 border-4 border-[#43623E]">
+
+    <!-- Gambar -->
+    <div class="w-[400px] mx-auto rounded-3xl overflow-hidden border-4 border-[#43623E] mb-6">
+        <img src="/img/glr2.jpg" alt="Doa" class="w-full object-cover" />
+    </div>
+
+
+    <!-- Judul -->
+    <h2 class="font-Parisienne text-3xl sm:text-4xl text-center mb-6 text-[#3b3b3b] pt-4">Ucapan & Do'a</h2>
+
+    <!-- Form -->
+    <form id="messageForm" class="space-y-4">
+      <div>
+        <label class="block text-[#3a3a3a] mb-1">Nama :</label>
+        <input type="text" id="nameInput" class="w-full border border-gray-300 rounded-md px-4 py-2 bg-[#e3ece3] focus:outline-none focus:ring-2 focus:ring-[#5B715B]" required />
+      </div>
+      <div>
+        <label class="block text-[#3a3a3a] mb-1">Pesan Untuk Kami :</label>
+        <textarea id="messageInput" rows="4" class="w-full border border-gray-300 rounded-md px-4 py-2 bg-[#e3ece3] focus:outline-none focus:ring-2 focus:ring-[#5B715B]" required></textarea>
+      </div>
+      <button type="submit" class="bg-[#5B715B] hover:bg-[#4b604d] text-white font-semibold px-6 py-2 rounded-md transition">Kirim</button>
+    </form>
+
+    <!-- List Pesan -->
+    <div id="messageList" class="mt-8 space-y-4">
+      <!-- Pesan yang ditambahkan akan muncul di sini -->
+    </div>
+
+    <!-- Penutup -->
+    <div class="text-center mt-10 text-sm text-[#444] italic pt-4">
+      Menjadi sebuah kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir dalam hari bahagia ini.<br />
+      Terima kasih atas segala ucapan, doa, dan perhatian yang diberikan.
+      <p class="mt-3 not-italic font-Parisienne text-xl">See you on our big day!</p>
+      <p class="font-semibold text-lg">David & Nayla</p>
+    </div>
+  </div>
+</section>
+
+<!-- SCRIPT -->
+<script>
+  const form = document.getElementById("messageForm");
+  const nameInput = document.getElementById("nameInput");
+  const messageInput = document.getElementById("messageInput");
+  const messageList = document.getElementById("messageList");
+
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    const name = nameInput.value.trim();
+    const message = messageInput.value.trim();
+
+    if (name && message) {
+      const msgBox = document.createElement("div");
+      msgBox.className = "bg-[#d4e3d2] border border-[#a5bfa0] px-4 py-3 rounded-xl text-sm text-gray-800 shadow";
+      msgBox.innerHTML = `<strong>${name} :</strong><br/>${message}`;
+      messageList.prepend(msgBox); // taruh pesan paling atas
+      form.reset(); // kosongkan form
+    }
+  });
+</script>
 
   </section>
 </body>
