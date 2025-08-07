@@ -88,7 +88,7 @@
 
  <!-- Profil Pengantin -->
  <section class="mt-6">
-  <div class="bg-[#A7B9A1]/40 backdrop-blur-md px-4 py-5 md:px-12 md:py-8 rounded-2xl shadow-xl w-[95%] max-w-5xl mx-auto">
+  <div class="bg-[#A7B9A1] px-4 py-5 md:px-12 md:py-8 rounded-2xl shadow-xl w-[95%] max-w-5xl mx-auto">
     <div class="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-6">
 
       <!-- David -->
@@ -160,8 +160,6 @@
       <p class="font-semibold mt-4">- QS. Ar-Rum 21 -</p>
     </div>
   </div>
-<!-- WRAPPER UTAMA -->
-<div class="min-h-screen flex flex-col md:flex-row justify-center items-center gap-4 p-4">
 
 <!-- WRAPPER UTAMA -->
 <div class="min-h-screen flex flex-col md:flex-row justify-center items-center gap-4 p-4">
@@ -280,10 +278,10 @@
 
 
 <!-- RSVP SECTION -->
-<section class="py-10 px-0 pt-6 text-center">
+<section class="py-10 px-0 text-center">
 
   <!-- Full-width gradient background title -->
-  <div class="w-full bg-gradient-to-r from-[#7C9084] to-[#40584A] py-4 md:py-6 shadow-md mb-14">
+  <div class="w-screen bg-gradient-to-r from-[#7C9084] to-[#40584A] py-4 md:py-4 shadow-md mb-14 mt-24">
     <h2 class="font-Parisienne text-xl md:text-4xl text-white">
       Love is in the air
     </h2>
@@ -389,180 +387,179 @@
       <img src="/img/2.jpg" alt="Gallery 5"
            class="w-full h-[280px] object-cover rounded-xl shadow" />
     </div>
+
   </div>
 </section>
 
- <!-- ========== DESKTOP LAYOUT (>= md) ========== -->
- <div class="hidden md:block">
-  <!-- Hero Section -->
-  <div class="relative max-w-4xl mx-auto px-4 pt-10">
-    <img src="img/heading_desktop.jpg" alt="Cover" class="rounded-3xl w-full max-h-[500px] object-cover shadow-md" />
-    <h1 class="absolute bottom-[-1.5rem] left-1/2 transform -translate-x-1/2 text-5xl md:text-6xl font-extrabold font-garamond text-[#3e5744]"
-        style="text-shadow: -2px -2px 0 white, 2px -2px 0 white, -2px 2px 0 white, 2px 2px 0 white;">
-      LOVE STORY
-    </h1>
+<!-- WEDDING GIFT SECTION -->
+<section class="relative w-full sm:w-[90%] md:w-[75%] lg:w-[60%] mx-auto bg-cover bg-center py-12 px-4 overflow-hidden mt-24">
+
+  <!-- Card Background dengan bunga -->
+  <div class="absolute inset-0 z-0 bg-[#e7eee5] rounded-2xl border border-[#c4d0c2]">
+
+    <!-- Bunga Kanan Atas -->
+    <img src="/img/bungaats.png" alt="Bunga Kanan" class="absolute bottom-34 right-20 left-38 w-[180px] sm:w-[200px] md:w-[230px] lg:w-[260px] pointer-events-none select-none">
+
+    <!-- Bunga Kiri Bawah -->
+    <img src="/img/bungabwh2.png" alt="Bunga Kiri" class="absolute bottom-0 left-20 w-[180px] sm:w-[200px] md:w-[230px] lg:w-[260px] pointer-events-none select-none ">
   </div>
 
-  <!-- Konten Desktop -->
-  <div class="pt-24 px-6 max-w-4xl mx-auto space-y-12">
-    <div>
-      <h2 class="text-2xl font-bold text-center font-mont mb-4">✨ Awal Pertemuan: Dari Meja Magang ke Hati</h2>
-      <p class="text-center max-w-3xl mx-auto text-gray-700">
-        Siapa sangka, tempat PKL yang katanya bikin stres justru jadi awal kisah kami.
-        Kami bertemu sebagai dua anak magang yang sering rebutan colokan, berebut WiFi, dan sama-sama butuh kopi biar tetap waras.
-        Obrolan singkat antar shift mulai berubah jadi candaan kecil yang bikin senyum, lalu perlahan jadi alasan betah lembur bareng.
-      </p>
-    </div>
+  <!-- Card Utama -->
+<div class="relative w-[65%] mx-auto bg-[#A7B9A1]/40 backdrop-blur-md min-h-[380px] p-8 rounded-[65px] border-8 border-[#43623E] shadow-lg z-10 text-center">
+    <h2 class="font-Parisienne text-5xl text-[#1E2B1C] mb-4 pt-12">Wedding Gift</h2>
+    <p class="text-[#625F55] mb-6 pt-4">Bagi yang ingin memberikan tanda kasih, dapat mengirimkan melalui fitur di bawah ini:</p>
 
-    <!-- Konten dengan gambar bergantian -->
-    <div class="flex gap-6 items-center">
-      <div class="flex-1">
-        <h3 class="text-xl font-bold font-mont mb-2">☕ Dari Teman Ngoding ke Teman Ngobrol</h3>
-        <p class="text-gray-700">Semakin sering bersama, semakin terasa nyaman.
-          Kami mulai saling mengenal lebih dari sekadar rekan kerja.
-          Ada momen saling curhat, saling bantu (meski kadang malah nambah error 🤭), dan akhirnya saling tunggu.
-          Hubungan kami tumbuh sederhana, tanpa drama, tapi penuh tawa.
-          
-          </p>
-      </div>
-      <img src="img/3.jpg" class="rounded-xl shadow-md w-1/2 max-h-60 object-cover">
-    </div>
+    <button id="openGift" class="bg-[#5B715B] hover:bg-[#4b604d] text-white py-2 px-6 rounded-full inline-flex items-center gap-2 transition">
+      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+        <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884zM18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+      </svg>
+      KIRIM HADIAH
+    </button>
+  </div>
 
-    <div class="flex gap-6 items-center">
-      <img src="img/enam.jpg" class="rounded-xl shadow-md w-1/2 max-h-60 object-cover">
-      <div class="flex-1">
-        <h3 class="text-xl font-bold font-mont mb-2">🎉 Cerita Kami Berlanjut</h3>
-        <p class="text-gray-700">Dari perbincangan ringan hingga dukungan dalam tekanan, kami perlahan menyadari bahwa hubungan ini bukan hanya sekadar kebersamaan saat kerja.
-          Kami mulai jadi tempat pulang satu sama lain — bukan karena harus, tapi karena ingin.</p>
-      </div>
-    </div>
+  <!-- Card Hadiah Detail (Hidden by Default) -->
+  <div id="giftCard" class="fixed top-0 right-0 w-full md:w-[400px] h-full bg-[#A7B9A1]/60 backdrop-blur-md border-l border-[#4F5E75]/30 shadow-2xl z-50 p-6 translate-x-full transition-transform duration-500 ease-in-out">
 
-    <div class="flex gap-6 items-center">
-      <div class="flex-1">
-        <h3 class="text-xl font-bold font-mont mb-2">🌙 Malam Lembur & Mimpi Besar</h3>
-        <p class="text-gray-700">Dari kopi sachet sampai mimpi startup bareng, kami sering berdiskusi tentang masa depan.
-          Banyak ide dan harapan lahir dari obrolan malam di kantor yang sepi — hanya ditemani layar laptop dan tawa yang tak pernah dibuat-buat.</p>
-      </div>
-      <img src="img/nugas.jpg" class="rounded-xl shadow-md w-1/2 max-h-60 object-cover">
-    </div>
+    <!-- Close Button -->
+    <button id="closeGift" class="absolute top-4 right-4 text-[#4F5E75] text-2xl font-bold hover:text-[#333]">&times;</button>
 
-    <div class="flex gap-6 items-center">
-      <img src="img/hangout.jpg" class="rounded-xl shadow-md w-1/2 max-h-60 object-cover">
-      <div class="flex-1">
-        <h3 class="text-xl font-bold font-mont mb-2">🍔 Hangout Pertama</h3>
-        <p class="text-gray-700">Bukan kencan mewah, hanya makan bakso di depan kantor.
-          Tapi dari situ kami tahu, kebersamaan tak perlu mahal — cukup ketulusan, waktu, dan rasa nyaman yang tak bisa dibeli.</p>
-      </div>
-    </div>
+    <h3 class="font-Parisienne text-2xl text-center mb-6 text-[#000000]">Tanda Kasih</h3>
 
-    <div class="flex gap-6 items-center">
-      <div class="flex-1">
-        <h3 class="text-xl font-bold font-mont mb-2">🎈 Dari Saling Antar ke Saling Jaga</h3>
-        <p class="text-gray-700">Awalnya hanya iseng ngantar pulang, tapi lama-lama jadi kebiasaan.
-          Kami mulai saling peduli, saling menanyakan kabar, dan diam-diam… saling menjaga.
-          Perlahan, tanpa sadar, hati kami saling terikat.</p>
-      </div>
-      <img src="img/empat.jpg" class="rounded-xl shadow-md w-1/2 max-h-60 object-cover">
-    </div>
+    <!-- Kartu Bank -->
+<div class="space-y-4 text-[#625F55]">
 
-    <div class="flex gap-6 items-center">
-      <img src="img/1.jpg" class="rounded-xl shadow-md w-1/2 max-h-60 object-cover">
-      <div class="flex-1">
-        <h3 class="text-xl font-bold font-mont mb-2">💍 Akhirnya Komitmen</h3>
-        <p class="text-gray-700">Setelah banyak cerita, tawa, dan cobaan, kami memutuskan untuk melangkah bersama.
-          Tidak ada yang instan, tidak ada yang sempurna, tapi kami percaya: cinta adalah tentang dua orang yang mau tumbuh dan belajar — bersama.
-          </p>
-      </div>
+  <!-- BCA -->
+  <div class="bg-white p-4 rounded-[25px] border-2 border-[#000000] shadow-md">
+    <div class="flex items-center justify-between mb-2">
+      <img src="/img/bca.png" alt="BCA" class="h-8" />
+      <span class="text-sm font-semibold">a.n. Bintara Danuarta</span>
+    </div>
+    <div class="flex items-center justify-between bg-gray-100 rounded-md px-3 py-2">
+      <p class="font-medium text-sm" id="bca">1234 5678 9012 3456</p>
+      <button onclick="copyToClipboard('bca')" class="text-[#4F5E75] hover:text-[#2f3a4f] text-xs font-semibold">Salin</button>
     </div>
   </div>
+
+  <!-- Mandiri -->
+  <div class="bg-white p-4 rounded-[25px] border-2 border-[#000000] shadow-md">
+    <div class="flex items-center justify-between mb-2">
+      <img src="/img/mandiri.png" alt="Mandiri" class="h-8" />
+      <span class="text-sm font-semibold">a.n. Bintara Danuarta</span>
+    </div>
+    <div class="flex items-center justify-between bg-gray-100 rounded-md px-3 py-2">
+      <p class="font-medium text-sm" id="mandiri">1234 5678 9012 3456</p>
+      <button onclick="copyToClipboard('mandiri')" class="text-[#4F5E75] hover:text-[#2f3a4f] text-xs font-semibold">Salin</button>
+    </div>
+  </div>
+
+  <!-- BRI -->
+  <div class="bg-white p-4 rounded-[25px] border-2 border-[#000000] shadow-md">
+    <div class="flex items-center justify-between mb-2">
+      <img src="/img/bri.png" alt="BRI" class="h-8" />
+      <span class="text-sm font-semibold">a.n. Zahira Damaris</span>
+    </div>
+    <div class="flex items-center justify-between bg-gray-100 rounded-md px-3 py-2">
+  <p class="font-medium text-sm leading-none text-gray-800" id="bri">1234 5678 9012 3456</p>
+  <button onclick="copyToClipboard('BRI')" class="text-[#4F5E75] hover:text-[#2f3a4f] text-xs font-semibold">Salin</button>
+</div>
 </div>
 
-<!-- ========== MOBILE LAYOUT (< md) ========== -->
-<div class="block md:hidden bg-white px-4 py-10">
-  <h2 class="text-2xl font-bold text-center font-mont mb-8 text-[#3e5744]">Kisah Cinta</h2>
 
-  <!-- Kamu sudah benar membuat flex-row & flex-row-reverse -->
-  <!-- Di sini hanya perlu pastikan urutan dan struktur sudah benar -->
-  <!-- Contoh 1: -->
-  <div class="flex flex-row-reverse items-center gap-4 mb-6">
-    <img src="img/3.jpg" alt="Awal Pertemuan" class="w-28 h-28 rounded-xl object-cover shadow-md">
-    <div class="flex-1">
-      <h3 class="font-bold font-mont text-[#3e5744] mb-1">✨ Dari Meja Magang ke Hati</h3>
-      <p class="text-sm text-gray-700 leading-snug">Kami bertemu saat PKL di perusahaan software.
-        Awalnya cuma teman magang yang suka rebutan colokan dan ngopi biar nggak ngantuk.
-        Tapi lama-lama, candaan ringan berubah jadi alasan untuk betah lembur bareng.</p>
+    <!-- Penutup -->
+    <div class="bg-[#4F5E75]/10 text-center mt-6 p-4 rounded-[30px] border-8 border-[#43623E]">
+      <p class="text-sm">Atas apresiasi yang telah diberikan,<br />kami ucapkan terima kasih. Semoga Allah SWT membalas kebaikan Anda dengan berkah yang melimpah. 🤍</p>
     </div>
   </div>
 
-  <!-- Card 2: Gambar kiri -->
-  <div class="flex flex-row items-center gap-4 mb-6">
-    <img src="img/enam.jpg" alt="Ngoding" class="w-28 h-28 rounded-xl object-cover shadow-md">
-    <div class="flex-1">
-      <h3 class="font-bold font-mont text-[#3e5744] mb-1">☕ Dari Teman Ngoding ke Teman Ngobrol</h3>
-      <p class="text-sm text-gray-700 leading-snug">
-        Makin sering bareng, makin nyaman. Kami mulai saling curhat, saling bantu (meski kadang malah nambah error 🤭), dan akhirnya saling tunggu.
-      </p>
+</section>
+
+<!-- SCRIPT -->
+<script>
+  const openBtn = document.getElementById('openGift');
+  const closeBtn = document.getElementById('closeGift');
+  const giftCard = document.getElementById('giftCard');
+
+  openBtn.addEventListener('click', () => {
+    giftCard.classList.remove('translate-x-full');
+  });
+
+  closeBtn.addEventListener('click', () => {
+    giftCard.classList.add('translate-x-full');
+  });
+
+  function copyToClipboard(id) {
+    const text = document.getElementById(id).innerText;
+    navigator.clipboard.writeText(text).then(() => {
+      alert('Nomor rekening disalin!');
+    });
+  }
+</script>
+
+<!--ucapan&doa-->
+
+<section class="py-10 px-4 relative pt-[200px]">
+  <div class="w-[80%] mx-auto bg-white rounded-[30px] shadow-lg p-6 sm:p-10 relative z-10 border-4 border-[#43623E]">
+
+    <!-- Gambar -->
+    <div class="w-[400px] mx-auto rounded-3xl overflow-hidden border-4 border-[#43623E] mb-6">
+        <img src="/img/glr2.jpg" alt="Doa" class="w-full object-cover" />
+    </div>
+
+
+    <!-- Judul -->
+    <h2 class="font-Parisienne text-3xl sm:text-4xl text-center mb-6 text-[#3b3b3b] pt-4">Ucapan & Do'a</h2>
+
+    <!-- Form -->
+    <form id="messageForm" class="space-y-4">
+      <div>
+        <label class="block text-[#3a3a3a] mb-1">Nama :</label>
+        <input type="text" id="nameInput" class="w-full border border-gray-300 rounded-md px-4 py-2 bg-[#e3ece3] focus:outline-none focus:ring-2 focus:ring-[#5B715B]" required />
+      </div>
+      <div>
+        <label class="block text-[#3a3a3a] mb-1">Pesan Untuk Kami :</label>
+        <textarea id="messageInput" rows="4" class="w-full border border-gray-300 rounded-md px-4 py-2 bg-[#e3ece3] focus:outline-none focus:ring-2 focus:ring-[#5B715B]" required></textarea>
+      </div>
+      <button type="submit" class="bg-[#5B715B] hover:bg-[#4b604d] text-white font-semibold px-6 py-2 rounded-md transition">Kirim</button>
+    </form>
+
+    <!-- List Pesan -->
+    <div id="messageList" class="mt-8 space-y-4">
+      <!-- Pesan yang ditambahkan akan muncul di sini -->
+    </div>
+
+    <!-- Penutup -->
+    <div class="text-center mt-10 text-sm text-[#444] italic pt-4">
+      Menjadi sebuah kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir dalam hari bahagia ini.<br />
+      Terima kasih atas segala ucapan, doa, dan perhatian yang diberikan.
+      <p class="mt-3 not-italic font-Parisienne text-xl">See you on our big day!</p>
+      <p class="font-semibold text-lg">David & Nayla</p>
     </div>
   </div>
+</section>
 
-  <!-- Card 3: Gambar kanan -->
-  <div class="flex flex-row-reverse items-center gap-4 mb-6">
-    <img src="img/rsvp.jpg" alt="Cerita Berlanjut" class="w-28 h-28 rounded-xl object-cover shadow-md">
-    <div class="flex-1">
-      <h3 class="font-bold font-mont text-[#3e5744] mb-1">🎉 Cerita Kami Berlanjut</h3>
-      <p class="text-sm text-gray-700 leading-snug">
-        Dari obrolan santai sampai saling dukung di tengah tekanan,
-kami tumbuh jadi lebih dari sekadar rekan — jadi pasangan yang saling percaya.
-      </p>
-    </div>
-  </div>
+<!-- SCRIPT -->
+<script>
+  const form = document.getElementById("messageForm");
+  const nameInput = document.getElementById("nameInput");
+  const messageInput = document.getElementById("messageInput");
+  const messageList = document.getElementById("messageList");
 
-  <!-- Card 4: Gambar kiri -->
-  <div class="flex flex-row items-center gap-4 mb-6">
-    <img src="img/nugas.jpg" alt="Lembur" class="w-28 h-28 rounded-xl object-cover shadow-md">
-    <div class="flex-1">
-      <h3 class="font-bold font-mont text-[#3e5744] mb-1">🌙 Malam Lembur & Mimpi Besar</h3>
-      <p class="text-sm text-gray-700 leading-snug">
-        Kami sering lembur bareng, bahas mimpi-mimpi besar,
-        dan membangun harapan dari lantai kerja yang sepi tapi penuh semangat.</p>
-    </div>
-  </div>
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
 
-  <!-- Card 5: Gambar kanan -->
-  <div class="flex flex-row-reverse items-center gap-4 mb-6">
-    <img src="img/hangout.jpg" alt="Hangout" class="w-28 h-28 rounded-xl object-cover shadow-md">
-    <div class="flex-1">
-      <h3 class="font-bold font-mont text-[#3e5744] mb-1">🍔 Hangout Pertama</h3>
-      <p class="text-sm text-gray-700 leading-snug">
-        Kencan pertama? Makan bakso depan kantor!
-Simpel banget, tapi justru di situ kami tahu: yang penting rasa, bukan suasana.</p>
-    </div>
-  </div>
+    const name = nameInput.value.trim();
+    const message = messageInput.value.trim();
 
-  <!-- Card 6: Gambar kiri -->
-  <div class="flex flex-row items-center gap-4 mb-6">
-    <img src="img/empat.jpg" alt="Antar Pulang" class="w-28 h-28 rounded-xl object-cover shadow-md">
-    <div class="flex-1">
-      <h3 class="font-bold font-mont text-[#3e5744] mb-1">🎈 Dari Saling Antar ke Saling Jaga</h3>
-      <p class="text-sm text-gray-700 leading-snug">
-        Awalnya cuma iseng ngantar pulang,
-        tapi kok makin hari makin pengen tahu kabarnya,
-        dan makin nggak tenang kalau belum dengar suaranya.  </p>
-    </div>
-  </div>
+    if (name && message) {
+      const msgBox = document.createElement("div");
+      msgBox.className = "bg-[#d4e3d2] border border-[#a5bfa0] px-4 py-3 rounded-xl text-sm text-gray-800 shadow";
+      msgBox.innerHTML = `<strong>${name} :</strong><br/>${message}`;
+      messageList.prepend(msgBox); // taruh pesan paling atas
+      form.reset(); // kosongkan form
+    }
+  });
+</script>
 
-  <!-- Card 7: Gambar kanan -->
-  <div class="flex flex-row-reverse items-center gap-4 mb-6">
-    <img src="img/1.jpg" alt="Komitmen" class="w-28 h-28 rounded-xl object-cover shadow-md">
-    <div class="flex-1">
-      <h3 class="font-bold font-mont text-[#3e5744] mb-1">💍 Akhirnya Komitmen</h3>
-      <p class="text-sm text-gray-700 leading-snug">
-        Setelah semua cerita, tawa, dan proses panjang,
-        kami siap melangkah ke babak baru —
-        menjadi satu tim, bukan hanya dalam kerja, tapi dalam hidup.</p>
-    </div>
-  </div>
-</div>
-
+  </section>
 </body>
 </html>
