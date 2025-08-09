@@ -71,7 +71,7 @@
   </div>
 
   <!-- SECTION UTAMA DENGAN BACKGROUND -->
-  <section class="bg-[url('/img/background1.png')] bg-cover bg-center">
+  <section class="bg-[url('/img/bg.png')] bg-cover bg-center">
 
     <!-- Bunga Atas -->
     <div class="mt-[-5] md:mt-0">
@@ -85,7 +85,6 @@
         Dengan memohon Rahmat dan Ridho Allah SWT kami bermaksud untuk mengundang Bapak/Ibu/Saudara/i untuk menghadiri acara pernikahan kami:
       </p>
     </div>
-
  <!-- Profil Pengantin -->
  <section class="mt-6">
   <div class="bg-[#A7B9A1]/40 backdrop-blur-md px-4 py-5 md:px-12 md:py-8 rounded-2xl shadow-xl w-[95%] max-w-5xl mx-auto">
@@ -119,7 +118,8 @@
       </div>
     </div>
   </div>
-
+</section>
+</section>
     <!-- Galeri & Ayat -->
     <div class="py-10 px-4 text-center">
       <!-- Mobile -->
@@ -163,18 +163,18 @@
 <!-- WRAPPER UTAMA -->
 <div class="min-h-screen flex flex-col md:flex-row justify-center items-center gap-4 p-4">
 
-<!-- WRAPPER UTAMA -->
-<div class="min-h-screen flex flex-col md:flex-row justify-center items-center gap-4 p-4">
-
-  <!-- DESKTOP VIEW -->
-  <div class="hidden md:block w-[1000px] bg-[#A7B9A1]/10 rounded-t-[600px] overflow-hidden shadow-xl justify-center">
+  <!-- DESKTOP VIEW (Hitam) -->
+  <div class="bg-[#A7B9A1]/40 backdrop-blur-md hidden md:block w-[1000px] rounded-t-[600px] overflow-hidden shadow-xl text-black">
+    
     <!-- Akad -->
-    <div class="px-6 pt-20 text-center justify-center">
+    <div class="px-6 pt-20 text-center">
       <h2 class="mt-12 text-7xl font-Parisienne">Akad Nikah</h2>
       <p class="mt-2 text-xl font-cormorant">Selasa, 08 Agustus 2028<br>08.00 WIB</p>
-      <p class="font-lg font-playball mt-2 text-3xl">Grand Mosque</p>
-      <p class="text-lg font-playball text-3xl">Jl. Biasa No. 12, Jakarta Selatan</p>
-      <button class="mt-3 bg-[#2F3B53] text-white px-4 py-2 rounded-md font-cormorant">Lihat Lokasi</button>
+      <p class="mt-2 text-3xl font-playball">Grand Mosque</p>
+      <p class="text-3xl font-playball pb-10">Jl. Biasa No. 12, Jakarta Selatan</p>
+      <button class="w-[20%] bg-[#778D80] hover:bg-[#90a48a] text-white py-2 rounded-3xl">
+        Lihat Lokasi
+      </button>
     </div>
 
     <!-- Gambar -->
@@ -184,16 +184,18 @@
 
     <!-- Resepsi -->
     <div class="px-6 pt-6 pb-10 text-center">
-      <h2 class="font-script text-7xl font-Parisienne">Resepsi</h2>
+      <h2 class="text-7xl font-Parisienne">Resepsi</h2>
       <p class="mt-2 text-2xl font-cormorant">Rabu, 09 Agustus 2028<br>08.00 WIB</p>
-      <p class="font-lg mt-2 font-playball text-3xl">Nayla's Home</p>
-      <p class="text-lg font-playball text-3xl">Jl. Biasa No. 12, Jakarta Selatan</p>
-      <button class="mt-3 bg-[#2F3B53] text-white px-4 py-2 rounded-md font-cormorant">Lihat Lokasi</button>
+      <p class="mt-2 text-3xl font-playball">Nayla's Home</p>
+      <p class="pb-10 font-playball">Jl. Biasa No. 12, Jakarta Selatan</p>
+      <button class="w-[20%] bg-[#778D80] hover:bg-[#90a48a] text-white py-2 rounded-3xl">
+        Lihat Lokasi
+      </button>
     </div>
   </div>
 
-  <!-- MOBILE VIEW (baru) -->
-  <div class="md:hidden w-full max-w-[360px] mx-auto text-center text-[#3e5744]">
+  <!-- MOBILE VIEW (Hitam) -->
+  <div class=" md:hidden w-full max-w-[360px] mx-auto text-center text-black">
 
     <!-- Judul -->
     <div class="mb-4">
@@ -221,62 +223,58 @@
         <p>Detik</p>
       </div>
     </div>
+<!-- Isi Oval Background -->
+<div class="bg-[#A7B9A1]/40 backdrop-blur-md rounded-[250px] px-4 py-6 max-w-l mx-auto space-y-6 text-[#3e5744]">
 
-    <div class="bg-[#A7B9A1] rounded-[150px] px-4 py-6 max-w-xs mx-auto space-y-6">
-      <!-- Akad Nikah -->
-      <div class="text-center">
-        <div class="flex justify-center mb-2">
-          <img src="img/cincin.png" alt="Akad Icon" class="h-16" /> <!-- Ganti dengan icon sesuai -->
+  <!-- Akad Nikah -->
+  <div class="text-center">
+    <div class="flex justify-center mb-2">
+      <img src="img/cincin.png" alt="Akad Icon" class="h-16" />
+    </div>
+    <h3 class="font-Parisienne text-4xl mb-2">Akad Nikah</h3>
+    <div class="px-16">
+      <div class="flex items-center justify-between gap-4 font-medium">
+        <span class="pt-6 font-garamond text-xl">Selasa</span>
+        <div class="text-center w-12">
+          <p class="text-3xl pt-0 font-garamond">[08]</p> <!-- pt-2 agar lebih rapat -->
+          <p class="text-sm font-garamond">Agustus</p>
         </div>
-        <h3 class="font-Parisienne text-4xl mb-2">Akad Nikah</h3>
-        <div class="px-16">
-          <div class="flex items-center justify-between gap-4 font-medium">
-          
-            <!-- Hari -->
-            <span class="pt-6 font-garamond text-xl">Selasa</span>
-        
-            <!-- Tanggal dan Bulan -->
-            <div class="text-center w-12">
-              <p class="justify-center text-3xl pt-12 font-garamond">[08]</p> <!-- pt sama seperti hari dan tahun -->
-              <p class="text-sm font-garamond">Agustus</p> <!-- bulan di bawah tanggal -->
-            </div>
-        
-            <!-- Tahun -->
-            <span class="pt-6 font-garamond text-xl">2028</span>
-          </div>
-        </div>
-      
-        <p class="mt-2 text-lg font-garamond">08.00 WIB</p>
-        <p class="italic text-sm font-garamond " >Grand Mosque</p>
-        <p class="text-sm">Jl. Binus No. 12, Jakarta Selatan</p>
-        <button class="mt-2 bg-[#5B5F97] text-white text-sm px-3 py-1 rounded-full">Lihat Lokasi</button>
-      </div>
-    
-      <!-- Resepsi -->
-      <div class="text-center">
-        <div class="flex justify-center mb-2">
-          <img src="icon-resepsi.png" alt="Resepsi Icon" class="h-8" /> <!-- Ganti dengan icon sesuai -->
-        </div>
-        <h3 class="font-script text-xl mb-2">Resepsi</h3>
-    
-        <div class="flex items-center justify-between text-sm font-medium">
-          <span>Selasa</span>
-          <div class="text-center">
-            <p class="text-2xl font-bold">[08]</p>
-            <p class="text-sm">Agustus</p>
-          </div>
-          <span>2028</span>
-        </div>
-    
-        <p class="mt-2 text-sm">08.00 WIB</p>
-        <p class="italic text-sm">Grand Mosque</p>
-        <p class="text-sm">Jl. Binus No. 12, Jakarta Selatan</p>
-        <button class="mt-2 bg-[#5B5F97] text-white text-sm px-3 py-1 rounded-full">Lihat Lokasi</button>
+        <span class="pt-6 font-garamond text-xl">2028</span>
       </div>
     </div>
-    
+    <p class="mt-2 text-lg font-garamond">08.00 WIB</p>
+    <p class="italic text-sm font-garamond">Grand Mosque</p>
+    <p class="text-sm">Jl. Binus No. 12, Jakarta Selatan</p>
+    <button class="mt-2 bg-[#778D80] text-white text-sm px-3 py-1 rounded-full">Lihat Lokasi</button>
+  </div>
+
+  <!-- Resepsi -->
+  <div class="text-center">
+    <div class="flex justify-center mb-2">
+      <img src="img/resepsi.png" alt="Resepsi Icon" class="h-16" />
+    </div>
+    <h3 class="font-Parisienne text-4xl mb-2">Resepsi</h3>
+    <div class="px-16">
+      <div class="flex items-center justify-between gap-4 font-medium">
+        <span class="pt-6 font-garamond text-xl">Rabu</span>
+        <div class="text-center w-12">
+          <p class="text-3xl pt-0 font-garamond">[09]</p> <!-- pt-2 juga di bagian resepsi -->
+          <p class="text-sm font-garamond">Agustus</p>
+        </div>
+        <span class="pt-6 font-garamond text-xl">2028</span>
+      </div>
+    </div>
+    <p class="mt-2 text-lg font-garamond">08.00 WIB</p>
+    <p class="italic text-sm font-garamond">Nayla's Home</p>
+    <p class="text-sm ">Jl. Binus No. 12, Jakarta Selatan</p>
+    <button class="mt-2 bg-[#778D80] text-white text-sm px-3 py-1 rounded-full">Lihat Lokasi</button>
   </div>
 </div>
+
+
+  </div>
+</div>
+
 
 
 <!-- RSVP SECTION -->
@@ -564,5 +562,200 @@ Simpel banget, tapi justru di situ kami tahu: yang penting rasa, bukan suasana.<
   </div>
 </div>
 
+<!-- WEDDING GIFT SECTION -->
+<section class="relative w-full sm:w-[90%] md:w-[75%] lg:w-[60%] mx-auto bg-cover bg-center py-12 px-4 overflow-hidden mt-24">
+
+  <!-- Card Background dengan bunga -->
+  <div class="absolute inset-0 z-0 bg-[#e7eee5] rounded-2xl border border-[#c4d0c2]">
+
+    <!-- Bunga Kanan Atas -->
+    <img src="/img/bungaats.png" alt="Bunga Kanan" class="absolute bottom-34 right-20 left-38 w-[180px] sm:w-[200px] md:w-[230px] lg:w-[260px] pointer-events-none select-none">
+
+    <!-- Bunga Kiri Bawah -->
+    <img src="/img/bungabwh2.png" alt="Bunga Kiri" class="absolute bottom-0 left-20 w-[180px] sm:w-[200px] md:w-[230px] lg:w-[260px] pointer-events-none select-none ">
+  </div>
+
+  <!-- Card Utama -->
+<div class="relative w-[65%] mx-auto bg-[#A7B9A1]/40 backdrop-blur-md min-h-[380px] p-8 rounded-[65px] border-8 border-[#43623E] shadow-lg z-10 text-center">
+    <h2 class="font-Parisienne text-5xl text-[#1E2B1C] mb-4 pt-12">Wedding Gift</h2>
+    <p class="text-[#625F55] mb-6 pt-4">Bagi yang ingin memberikan tanda kasih, dapat mengirimkan melalui fitur di bawah ini:</p>
+
+    <button id="openGift" class="bg-[#5B715B] hover:bg-[#4b604d] text-white py-2 px-6 rounded-full inline-flex items-center gap-2 transition">
+      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+        <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884zM18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+      </svg>
+      KIRIM HADIAH
+    </button>
+  </div>
+
+  <!-- Card Hadiah Detail (Hidden by Default) -->
+  <div id="giftCard" class="fixed top-0 right-0 w-full md:w-[400px] h-full bg-[#A7B9A1]/60 backdrop-blur-md border-l border-[#4F5E75]/30 shadow-2xl z-50 p-6 translate-x-full transition-transform duration-500 ease-in-out">
+
+    <!-- Close Button -->
+    <button id="closeGift" class="absolute top-4 right-4 text-[#4F5E75] text-2xl font-bold hover:text-[#333]">&times;</button>
+
+    <h3 class="font-Parisienne text-2xl text-center mb-6 text-[#000000]">Tanda Kasih</h3>
+
+    <!-- Kartu Bank -->
+<div class="space-y-4 text-[#625F55]">
+
+  <!-- BCA -->
+  <div class="bg-white p-4 rounded-[25px] border-2 border-[#000000] shadow-md">
+    <div class="flex items-center justify-between mb-2">
+      <img src="/img/bca.png" alt="BCA" class="h-8" />
+      <span class="text-sm font-semibold">a.n. Bintara Danuarta</span>
+    </div>
+    <div class="flex items-center justify-between bg-gray-100 rounded-md px-3 py-2">
+      <p class="font-medium text-sm" id="bca">1234 5678 9012 3456</p>
+      <button onclick="copyToClipboard('bca')" class="text-[#4F5E75] hover:text-[#2f3a4f] text-xs font-semibold">Salin</button>
+    </div>
+  </div>
+
+  <!-- Mandiri -->
+  <div class="bg-white p-4 rounded-[25px] border-2 border-[#000000] shadow-md">
+    <div class="flex items-center justify-between mb-2">
+      <img src="/img/mandiri.png" alt="Mandiri" class="h-8" />
+      <span class="text-sm font-semibold">a.n. Bintara Danuarta</span>
+    </div>
+    <div class="flex items-center justify-between bg-gray-100 rounded-md px-3 py-2">
+      <p class="font-medium text-sm" id="mandiri">1234 5678 9012 3456</p>
+      <button onclick="copyToClipboard('mandiri')" class="text-[#4F5E75] hover:text-[#2f3a4f] text-xs font-semibold">Salin</button>
+    </div>
+  </div>
+
+  <!-- BRI -->
+  <div class="bg-white p-4 rounded-[25px] border-2 border-[#000000] shadow-md">
+    <div class="flex items-center justify-between mb-2">
+      <img src="/img/bri.png" alt="BRI" class="h-8" />
+      <span class="text-sm font-semibold">a.n. Zahira Damaris</span>
+    </div>
+    <div class="flex items-center justify-between bg-gray-100 rounded-md px-3 py-2">
+  <p class="font-medium text-sm leading-none text-gray-800" id="bri">1234 5678 9012 3456</p>
+  <button onclick="copyToClipboard('BRI')" class="text-[#4F5E75] hover:text-[#2f3a4f] text-xs font-semibold">Salin</button>
+</div>
+</div>
+
+
+    <!-- Penutup -->
+    <div class="bg-[#4F5E75]/10 text-center mt-6 p-4 rounded-[30px] border-8 border-[#43623E]">
+      <p class="text-sm">Atas apresiasi yang telah diberikan,<br />kami ucapkan terima kasih. Semoga Allah SWT membalas kebaikan Anda dengan berkah yang melimpah. 🤍</p>
+    </div>
+  </div>
+
+</section>
+
+<!-- SCRIPT -->
+<script>
+  const openBtn = document.getElementById('openGift');
+  const closeBtn = document.getElementById('closeGift');
+  const giftCard = document.getElementById('giftCard');
+
+  openBtn.addEventListener('click', () => {
+    giftCard.classList.remove('translate-x-full');
+  });
+
+  closeBtn.addEventListener('click', () => {
+    giftCard.classList.add('translate-x-full');
+  });
+
+  function copyToClipboard(id) {
+    const text = document.getElementById(id).innerText;
+    navigator.clipboard.writeText(text).then(() => {
+      alert('Nomor rekening disalin!');
+    });
+  }
+</script>
+
+<!--ucapan&doa-->
+
+<section class="py-10 px-4 relative pt-[200px]">
+  <div class="w-[80%] mx-auto bg-white rounded-[30px] shadow-lg p-6 sm:p-10 relative z-10 border-4 border-[#43623E]">
+
+    <!-- Gambar -->
+<div class="max-w-md mx-auto rounded-3xl overflow-hidden border-4 border-[#8fc1b5] mb-6">
+  <img src="/img/glr2.jpg" alt="Doa" class="w-full h-auto object-cover" />
+</div>
+
+
+
+
+    <!-- Judul -->
+    <h2 class="font-Parisienne text-3xl sm:text-4xl text-center mb-6 text-[#3b3b3b] pt-4">Ucapan & Do'a</h2>
+
+    <!-- Form -->
+<form id="messageForm" class="space-y-4">
+  <div>
+    <label class="block text-[#3a3a3a] mb-1">Nama :</label>
+    <input type="text" id="nameInput"
+           class="w-full border border-gray-300 rounded-md px-4 py-2 bg-[#e3ece3] focus:outline-none focus:ring-2 focus:ring-[#5B715B]"
+           required />
+  </div>
+
+  <div>
+    <label class="block text-[#3a3a3a] mb-1">Pesan Untuk Kami :</label>
+    <textarea id="messageInput" rows="4"
+              class="w-full border border-gray-300 rounded-md px-4 py-2 bg-[#e3ece3] focus:outline-none focus:ring-2 focus:ring-[#5B715B]"
+              required></textarea>
+  </div>
+
+  <!-- Tombol Kirim di kanan -->
+  <div class="text-right">
+    <button type="submit"
+            class="bg-[#5B715B] hover:bg-[#4b604d] text-white font-semibold px-6 py-2 rounded-md transition">
+      Kirim
+    </button>
+  </div>
+</form>
+
+
+    <!-- List Pesan -->
+    <div id="messageList" class="mt-8 space-y-4">
+      <!-- Pesan yang ditambahkan akan muncul di sini -->
+    </div>
+
+    <!-- Penutup -->
+    <div class="text-center mt-10 text-l text-[#444] italic pt-4">
+  Menjadi sebuah kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir dalam hari bahagia ini.<br />
+  Terima kasih atas segala ucapan, doa, dan perhatian yang diberikan.
+  <p class="mt-3 not-italic font-Parisienne text-2xl">See you on our big day!</p>
+  <p class="font-semibold text-3xl pt-6">David & Nayla</p>
+</div>
+
+    </div>
+  </div>
+</section>
+
+<!-- SCRIPT -->
+<script>
+  const form = document.getElementById("messageForm");
+  const nameInput = document.getElementById("nameInput");
+  const messageInput = document.getElementById("messageInput");
+  const messageList = document.getElementById("messageList");
+
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    const name = nameInput.value.trim();
+    const message = messageInput.value.trim();
+
+    if (name && message) {
+      const msgBox = document.createElement("div");
+      msgBox.className = "bg-[#d4e3d2] border border-[#a5bfa0] px-4 py-3 rounded-xl text-sm text-gray-800 shadow";
+      msgBox.innerHTML = `<strong>${name} :</strong><br/>${message}`;
+      messageList.prepend(msgBox); // taruh pesan paling atas
+      form.reset(); // kosongkan form
+    }
+  });
+</script>
+
+<footer class="mt-16 bg-gradient-to-r from-[#A7B9A1] via-[#5B715B] to-[#2C3B2C] text-white py-6 rounded-t-0 shadow-inner pt-12 pb-10">
+  <div class="text-center text-sm md:text-base tracking-wide px-4">
+    <p class="mb-1 font-light italic">Terima kasih telah menjadi bagian dari momen istimewa kami.</p>
+    <p class="font-semibold">@ 2025 <span class="text-[#DDE7D0]">Nayla</span> & <span class="text-[#DDE7D0]">Sahila</span></p>
+  </div>
+</footer>
+
+
+  </section>
 </body>
 </html>
