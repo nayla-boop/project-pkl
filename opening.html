@@ -71,7 +71,7 @@
   </div>
 
   <!-- SECTION UTAMA DENGAN BACKGROUND -->
-  <section class="bg-[url('/img/background1.png')] bg-cover bg-center">
+ 
 
     <!-- Bunga Atas -->
     <div class="mt-[-5] md:mt-0">
@@ -85,10 +85,10 @@
         Dengan memohon Rahmat dan Ridho Allah SWT kami bermaksud untuk mengundang Bapak/Ibu/Saudara/i untuk menghadiri acara pernikahan kami:
       </p>
     </div>
-
  <!-- Profil Pengantin -->
  <section class="mt-6">
-  <div class="bg-[#A7B9A1] px-4 py-5 md:px-12 md:py-8 rounded-2xl shadow-xl w-[95%] max-w-5xl mx-auto">
+  
+  <div class="bg-[#A7B9A1]/40 backdrop-blur-md px-4 py-5 md:px-12 md:py-8 rounded-2xl shadow-xl w-[95%] max-w-5xl mx-auto">
     <div class="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-6">
 
       <!-- David -->
@@ -119,7 +119,8 @@
       </div>
     </div>
   </div>
-
+</section>
+</section>
     <!-- Galeri & Ayat -->
     <div class="py-10 px-4 text-center">
       <!-- Mobile -->
@@ -160,19 +161,21 @@
       <p class="font-semibold mt-4">- QS. Ar-Rum 21 -</p>
     </div>
   </div>
-
 <!-- WRAPPER UTAMA -->
 <div class="min-h-screen flex flex-col md:flex-row justify-center items-center gap-4 p-4">
 
-  <!-- DESKTOP VIEW -->
-  <div class="hidden md:block w-[1000px] bg-[#A7B9A1]/10 rounded-t-[600px] overflow-hidden shadow-xl justify-center">
+  <!-- DESKTOP VIEW (Hitam) -->
+  <div class="bg-[#A7B9A1]/40 backdrop-blur-md hidden md:block w-[1000px] rounded-t-[600px] overflow-hidden shadow-xl text-black">
+    
     <!-- Akad -->
-    <div class="px-6 pt-20 text-center justify-center">
+    <div class="px-6 pt-20 text-center">
       <h2 class="mt-12 text-7xl font-Parisienne">Akad Nikah</h2>
       <p class="mt-2 text-xl font-cormorant">Selasa, 08 Agustus 2028<br>08.00 WIB</p>
-      <p class="font-lg font-playball mt-2 text-3xl">Grand Mosque</p>
-      <p class="text-lg font-playball text-3xl">Jl. Biasa No. 12, Jakarta Selatan</p>
-      <button class="mt-3 bg-[#2F3B53] text-white px-4 py-2 rounded-md font-cormorant">Lihat Lokasi</button>
+      <p class="mt-2 text-3xl font-playball">Grand Mosque</p>
+      <p class="text-3xl font-playball pb-10">Jl. Biasa No. 12, Jakarta Selatan</p>
+      <button class="w-[20%] bg-[#778D80] hover:bg-[#90a48a] text-white py-2 rounded-3xl">
+        Lihat Lokasi
+      </button>
     </div>
 
     <!-- Gambar -->
@@ -182,16 +185,18 @@
 
     <!-- Resepsi -->
     <div class="px-6 pt-6 pb-10 text-center">
-      <h2 class="font-script text-7xl font-Parisienne">Resepsi</h2>
+      <h2 class="text-7xl font-Parisienne">Resepsi</h2>
       <p class="mt-2 text-2xl font-cormorant">Rabu, 09 Agustus 2028<br>08.00 WIB</p>
-      <p class="font-lg mt-2 font-playball text-3xl">Nayla's Home</p>
-      <p class="text-lg font-playball text-3xl">Jl. Biasa No. 12, Jakarta Selatan</p>
-      <button class="mt-3 bg-[#2F3B53] text-white px-4 py-2 rounded-md font-cormorant">Lihat Lokasi</button>
+      <p class="mt-2 text-3xl font-playball">Nayla's Home</p>
+      <p class="pb-10 font-playball">Jl. Biasa No. 12, Jakarta Selatan</p>
+      <button class="w-[20%] bg-[#778D80] hover:bg-[#90a48a] text-white py-2 rounded-3xl">
+        Lihat Lokasi
+      </button>
     </div>
   </div>
 
-  <!-- MOBILE VIEW (baru) -->
-  <div class="md:hidden w-full max-w-[360px] mx-auto text-center text-[#3e5744]">
+  <!-- MOBILE VIEW (Hitam) -->
+  <div class=" md:hidden w-full max-w-[360px] mx-auto text-center text-black">
 
     <!-- Judul -->
     <div class="mb-4">
@@ -219,76 +224,72 @@
         <p>Detik</p>
       </div>
     </div>
+<!-- Isi Oval Background -->
+<div class="bg-[#A7B9A1]/40 backdrop-blur-md rounded-[250px] px-4 py-6 max-w-l mx-auto space-y-6 text-[#3e5744]">
 
-    <div class="bg-[#A7B9A1] rounded-[150px] px-4 py-6 max-w-xs mx-auto space-y-6">
-      <!-- Akad Nikah -->
-      <div class="text-center">
-        <div class="flex justify-center mb-2">
-          <img src="img/cincin.png" alt="Akad Icon" class="h-16" /> <!-- Ganti dengan icon sesuai -->
+  <!-- Akad Nikah -->
+  <div class="text-center">
+    <div class="flex justify-center mb-2">
+      <img src="img/cincin.png" alt="Akad Icon" class="h-16" />
+    </div>
+    <h3 class="font-Parisienne text-4xl mb-2">Akad Nikah</h3>
+    <div class="px-16">
+      <div class="flex items-center justify-between gap-4 font-medium">
+        <span class="pt-6 font-garamond text-xl">Selasa</span>
+        <div class="text-center w-12">
+          <p class="text-3xl pt-0 font-garamond">[08]</p> <!-- pt-2 agar lebih rapat -->
+          <p class="text-sm font-garamond">Agustus</p>
         </div>
-        <h3 class="font-Parisienne text-4xl mb-2">Akad Nikah</h3>
-        <div class="px-16">
-          <div class="flex items-center justify-between gap-4 font-medium">
-          
-            <!-- Hari -->
-            <span class="pt-6 font-garamond text-xl">Selasa</span>
-        
-            <!-- Tanggal dan Bulan -->
-            <div class="text-center w-12">
-              <p class="justify-center text-3xl pt-12 font-garamond">[08]</p> <!-- pt sama seperti hari dan tahun -->
-              <p class="text-sm font-garamond">Agustus</p> <!-- bulan di bawah tanggal -->
-            </div>
-        
-            <!-- Tahun -->
-            <span class="pt-6 font-garamond text-xl">2028</span>
-          </div>
-        </div>
-      
-        <p class="mt-2 text-lg font-garamond">08.00 WIB</p>
-        <p class="italic text-sm font-garamond " >Grand Mosque</p>
-        <p class="text-sm">Jl. Binus No. 12, Jakarta Selatan</p>
-        <button class="mt-2 bg-[#5B5F97] text-white text-sm px-3 py-1 rounded-full">Lihat Lokasi</button>
-      </div>
-    
-      <!-- Resepsi -->
-      <div class="text-center">
-        <div class="flex justify-center mb-2">
-          <img src="icon-resepsi.png" alt="Resepsi Icon" class="h-8" /> <!-- Ganti dengan icon sesuai -->
-        </div>
-        <h3 class="font-script text-xl mb-2">Resepsi</h3>
-    
-        <div class="flex items-center justify-between text-sm font-medium">
-          <span>Selasa</span>
-          <div class="text-center">
-            <p class="text-2xl font-bold">[08]</p>
-            <p class="text-sm">Agustus</p>
-          </div>
-          <span>2028</span>
-        </div>
-    
-        <p class="mt-2 text-sm">08.00 WIB</p>
-        <p class="italic text-sm">Grand Mosque</p>
-        <p class="text-sm">Jl. Binus No. 12, Jakarta Selatan</p>
-        <button class="mt-2 bg-[#5B5F97] text-white text-sm px-3 py-1 rounded-full">Lihat Lokasi</button>
+        <span class="pt-6 font-garamond text-xl">2028</span>
       </div>
     </div>
-    
+    <p class="mt-2 text-lg font-garamond">08.00 WIB</p>
+    <p class="italic text-sm font-garamond">Grand Mosque</p>
+    <p class="text-sm">Jl. Binus No. 12, Jakarta Selatan</p>
+    <button class="mt-2 bg-[#778D80] text-white text-sm px-3 py-1 rounded-full">Lihat Lokasi</button>
+  </div>
+
+  <!-- Resepsi -->
+  <div class="text-center">
+    <div class="flex justify-center mb-2">
+      <img src="img/resepsi.png" alt="Resepsi Icon" class="h-16" />
+    </div>
+    <h3 class="font-Parisienne text-4xl mb-2">Resepsi</h3>
+    <div class="px-16">
+      <div class="flex items-center justify-between gap-4 font-medium">
+        <span class="pt-6 font-garamond text-xl">Rabu</span>
+        <div class="text-center w-12">
+          <p class="text-3xl pt-0 font-garamond">[09]</p> <!-- pt-2 juga di bagian resepsi -->
+          <p class="text-sm font-garamond">Agustus</p>
+        </div>
+        <span class="pt-6 font-garamond text-xl">2028</span>
+      </div>
+    </div>
+    <p class="mt-2 text-lg font-garamond">08.00 WIB</p>
+    <p class="italic text-sm font-garamond">Nayla's Home</p>
+    <p class="text-sm ">Jl. Binus No. 12, Jakarta Selatan</p>
+    <button class="mt-2 bg-[#778D80] text-white text-sm px-3 py-1 rounded-full">Lihat Lokasi</button>
   </div>
 </div>
 
 
+  </div>
+</div>
+
+
+
 <!-- RSVP SECTION -->
-<section class="py-10 px-0 text-center">
+<section class="py-10 px-0 pt-6 text-center">
 
   <!-- Full-width gradient background title -->
-  <div class="w-screen bg-gradient-to-r from-[#7C9084] to-[#40584A] py-4 md:py-4 shadow-md mb-14 mt-24">
+  <div class="w-full bg-gradient-to-r from-[#7C9084] to-[#40584A] py-4 md:py-6 shadow-md mb-14">
     <h2 class="font-Parisienne text-xl md:text-4xl text-white">
       Love is in the air
     </h2>
   </div>
 
   <!-- Card: Glassmorphism Style -->
-  <div class="relative max-w-4xl mx-auto bg-[#5B8154]/20 backdrop-blur-lg rounded-3xl p-10 shadow-xl border border-white/30 mt-4">
+  <div class="relative max-w-4xl mx-auto bg-[#5B8154]/20 backdrop-blur-lg rounded-3xl p-10 shadow-xl border border-white/30">
 
     <!-- Bunga Dekoratif Responsif di Pojok Kiri Atas -->
     <img src="/img/bunga rsvp.png" alt="Bunga Hias" 
@@ -343,9 +344,9 @@
 </section>
 
 <!-- GALLERY SECTION -->
-<section class="relative py-10 px-4 mt-12">
+<section class="relative py-10 px-4">
   <!-- Judul -->
-  <h2 class="font-Parisienne text-4xl md:text-5xl text-center mb-8 text-[#3e5744]">Gallery</h2>
+  <h2 class="font-Parisienne text-3xl md:text-4xl text-center mb-8 text-[#3e5744]">Gallery</h2>
 
   <!-- Wrapper -->
   <div class="max-w-5xl mx-auto bg-[#A7B9A1]/40 backdrop-blur-md p-6 md:p-10 rounded-2xl shadow-lg">
@@ -387,9 +388,180 @@
       <img src="/img/2.jpg" alt="Gallery 5"
            class="w-full h-[280px] object-cover rounded-xl shadow" />
     </div>
-
   </div>
 </section>
+
+ <!-- ========== DESKTOP LAYOUT (>= md) ========== -->
+ <div class="hidden md:block">
+  <!-- Hero Section -->
+  <div class="relative max-w-4xl mx-auto px-4 pt-10">
+    <img src="img/heading_desktop.jpg" alt="Cover" class="rounded-3xl w-full max-h-[500px] object-cover shadow-md" />
+    <h1 class="absolute bottom-[-1.5rem] left-1/2 transform -translate-x-1/2 text-5xl md:text-6xl font-extrabold font-garamond text-[#3e5744]"
+        style="text-shadow: -2px -2px 0 white, 2px -2px 0 white, -2px 2px 0 white, 2px 2px 0 white;">
+      LOVE STORY
+    </h1>
+  </div>
+
+  <!-- Konten Desktop -->
+  <div class="pt-24 px-6 max-w-4xl mx-auto space-y-12">
+    <div>
+      <h2 class="text-2xl font-bold text-center font-mont mb-4">✨ Awal Pertemuan: Dari Meja Magang ke Hati</h2>
+      <p class="text-center max-w-3xl mx-auto text-gray-700">
+        Siapa sangka, tempat PKL yang katanya bikin stres justru jadi awal kisah kami.
+        Kami bertemu sebagai dua anak magang yang sering rebutan colokan, berebut WiFi, dan sama-sama butuh kopi biar tetap waras.
+        Obrolan singkat antar shift mulai berubah jadi candaan kecil yang bikin senyum, lalu perlahan jadi alasan betah lembur bareng.
+      </p>
+    </div>
+
+    <!-- Konten dengan gambar bergantian -->
+    <div class="flex gap-6 items-center">
+      <div class="flex-1">
+        <h3 class="text-xl font-bold font-mont mb-2">☕ Dari Teman Ngoding ke Teman Ngobrol</h3>
+        <p class="text-gray-700">Semakin sering bersama, semakin terasa nyaman.
+          Kami mulai saling mengenal lebih dari sekadar rekan kerja.
+          Ada momen saling curhat, saling bantu (meski kadang malah nambah error 🤭), dan akhirnya saling tunggu.
+          Hubungan kami tumbuh sederhana, tanpa drama, tapi penuh tawa.
+          
+          </p>
+      </div>
+      <img src="img/3.jpg" class="rounded-xl shadow-md w-1/2 max-h-60 object-cover">
+    </div>
+
+    <div class="flex gap-6 items-center">
+      <img src="img/enam.jpg" class="rounded-xl shadow-md w-1/2 max-h-60 object-cover">
+      <div class="flex-1">
+        <h3 class="text-xl font-bold font-mont mb-2">🎉 Cerita Kami Berlanjut</h3>
+        <p class="text-gray-700">Dari perbincangan ringan hingga dukungan dalam tekanan, kami perlahan menyadari bahwa hubungan ini bukan hanya sekadar kebersamaan saat kerja.
+          Kami mulai jadi tempat pulang satu sama lain — bukan karena harus, tapi karena ingin.</p>
+      </div>
+    </div>
+
+    <div class="flex gap-6 items-center">
+      <div class="flex-1">
+        <h3 class="text-xl font-bold font-mont mb-2">🌙 Malam Lembur & Mimpi Besar</h3>
+        <p class="text-gray-700">Dari kopi sachet sampai mimpi startup bareng, kami sering berdiskusi tentang masa depan.
+          Banyak ide dan harapan lahir dari obrolan malam di kantor yang sepi — hanya ditemani layar laptop dan tawa yang tak pernah dibuat-buat.</p>
+      </div>
+      <img src="img/nugas.jpg" class="rounded-xl shadow-md w-1/2 max-h-60 object-cover">
+    </div>
+
+    <div class="flex gap-6 items-center">
+      <img src="img/hangout.jpg" class="rounded-xl shadow-md w-1/2 max-h-60 object-cover">
+      <div class="flex-1">
+        <h3 class="text-xl font-bold font-mont mb-2">🍔 Hangout Pertama</h3>
+        <p class="text-gray-700">Bukan kencan mewah, hanya makan bakso di depan kantor.
+          Tapi dari situ kami tahu, kebersamaan tak perlu mahal — cukup ketulusan, waktu, dan rasa nyaman yang tak bisa dibeli.</p>
+      </div>
+    </div>
+
+    <div class="flex gap-6 items-center">
+      <div class="flex-1">
+        <h3 class="text-xl font-bold font-mont mb-2">🎈 Dari Saling Antar ke Saling Jaga</h3>
+        <p class="text-gray-700">Awalnya hanya iseng ngantar pulang, tapi lama-lama jadi kebiasaan.
+          Kami mulai saling peduli, saling menanyakan kabar, dan diam-diam… saling menjaga.
+          Perlahan, tanpa sadar, hati kami saling terikat.</p>
+      </div>
+      <img src="img/empat.jpg" class="rounded-xl shadow-md w-1/2 max-h-60 object-cover">
+    </div>
+
+    <div class="flex gap-6 items-center">
+      <img src="img/1.jpg" class="rounded-xl shadow-md w-1/2 max-h-60 object-cover">
+      <div class="flex-1">
+        <h3 class="text-xl font-bold font-mont mb-2">💍 Akhirnya Komitmen</h3>
+        <p class="text-gray-700">Setelah banyak cerita, tawa, dan cobaan, kami memutuskan untuk melangkah bersama.
+          Tidak ada yang instan, tidak ada yang sempurna, tapi kami percaya: cinta adalah tentang dua orang yang mau tumbuh dan belajar — bersama.
+          </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ========== MOBILE LAYOUT (< md) ========== -->
+<div class="block md:hidden bg-white px-4 py-10">
+  <h2 class="text-2xl font-bold text-center font-mont mb-8 text-[#3e5744]">Kisah Cinta</h2>
+
+  <!-- Kamu sudah benar membuat flex-row & flex-row-reverse -->
+  <!-- Di sini hanya perlu pastikan urutan dan struktur sudah benar -->
+  <!-- Contoh 1: -->
+  <div class="flex flex-row-reverse items-center gap-4 mb-6">
+    <img src="img/3.jpg" alt="Awal Pertemuan" class="w-28 h-28 rounded-xl object-cover shadow-md">
+    <div class="flex-1">
+      <h3 class="font-bold font-mont text-[#3e5744] mb-1">✨ Dari Meja Magang ke Hati</h3>
+      <p class="text-sm text-gray-700 leading-snug">Kami bertemu saat PKL di perusahaan software.
+        Awalnya cuma teman magang yang suka rebutan colokan dan ngopi biar nggak ngantuk.
+        Tapi lama-lama, candaan ringan berubah jadi alasan untuk betah lembur bareng.</p>
+    </div>
+  </div>
+
+  <!-- Card 2: Gambar kiri -->
+  <div class="flex flex-row items-center gap-4 mb-6">
+    <img src="img/enam.jpg" alt="Ngoding" class="w-28 h-28 rounded-xl object-cover shadow-md">
+    <div class="flex-1">
+      <h3 class="font-bold font-mont text-[#3e5744] mb-1">☕ Dari Teman Ngoding ke Teman Ngobrol</h3>
+      <p class="text-sm text-gray-700 leading-snug">
+        Makin sering bareng, makin nyaman. Kami mulai saling curhat, saling bantu (meski kadang malah nambah error 🤭), dan akhirnya saling tunggu.
+      </p>
+    </div>
+  </div>
+
+  <!-- Card 3: Gambar kanan -->
+  <div class="flex flex-row-reverse items-center gap-4 mb-6">
+    <img src="img/rsvp.jpg" alt="Cerita Berlanjut" class="w-28 h-28 rounded-xl object-cover shadow-md">
+    <div class="flex-1">
+      <h3 class="font-bold font-mont text-[#3e5744] mb-1">🎉 Cerita Kami Berlanjut</h3>
+      <p class="text-sm text-gray-700 leading-snug">
+        Dari obrolan santai sampai saling dukung di tengah tekanan,
+kami tumbuh jadi lebih dari sekadar rekan — jadi pasangan yang saling percaya.
+      </p>
+    </div>
+  </div>
+
+  <!-- Card 4: Gambar kiri -->
+  <div class="flex flex-row items-center gap-4 mb-6">
+    <img src="img/nugas.jpg" alt="Lembur" class="w-28 h-28 rounded-xl object-cover shadow-md">
+    <div class="flex-1">
+      <h3 class="font-bold font-mont text-[#3e5744] mb-1">🌙 Malam Lembur & Mimpi Besar</h3>
+      <p class="text-sm text-gray-700 leading-snug">
+        Kami sering lembur bareng, bahas mimpi-mimpi besar,
+        dan membangun harapan dari lantai kerja yang sepi tapi penuh semangat.</p>
+    </div>
+  </div>
+
+  <!-- Card 5: Gambar kanan -->
+  <div class="flex flex-row-reverse items-center gap-4 mb-6">
+    <img src="img/hangout.jpg" alt="Hangout" class="w-28 h-28 rounded-xl object-cover shadow-md">
+    <div class="flex-1">
+      <h3 class="font-bold font-mont text-[#3e5744] mb-1">🍔 Hangout Pertama</h3>
+      <p class="text-sm text-gray-700 leading-snug">
+        Kencan pertama? Makan bakso depan kantor!
+Simpel banget, tapi justru di situ kami tahu: yang penting rasa, bukan suasana.</p>
+    </div>
+  </div>
+
+  <!-- Card 6: Gambar kiri -->
+  <div class="flex flex-row items-center gap-4 mb-6">
+    <img src="img/empat.jpg" alt="Antar Pulang" class="w-28 h-28 rounded-xl object-cover shadow-md">
+    <div class="flex-1">
+      <h3 class="font-bold font-mont text-[#3e5744] mb-1">🎈 Dari Saling Antar ke Saling Jaga</h3>
+      <p class="text-sm text-gray-700 leading-snug">
+        Awalnya cuma iseng ngantar pulang,
+        tapi kok makin hari makin pengen tahu kabarnya,
+        dan makin nggak tenang kalau belum dengar suaranya.  </p>
+    </div>
+  </div>
+
+  <!-- Card 7: Gambar kanan -->
+  <div class="flex flex-row-reverse items-center gap-4 mb-6">
+    <img src="img/1.jpg" alt="Komitmen" class="w-28 h-28 rounded-xl object-cover shadow-md">
+    <div class="flex-1">
+      <h3 class="font-bold font-mont text-[#3e5744] mb-1">💍 Akhirnya Komitmen</h3>
+      <p class="text-sm text-gray-700 leading-snug">
+        Setelah semua cerita, tawa, dan proses panjang,
+        kami siap melangkah ke babak baru —
+        menjadi satu tim, bukan hanya dalam kerja, tapi dalam hidup.</p>
+    </div>
+  </div>
+</div>
 
 <!-- WEDDING GIFT SECTION -->
 <section class="relative w-full sm:w-[90%] md:w-[75%] lg:w-[60%] mx-auto bg-cover bg-center py-12 px-4 overflow-hidden mt-24">
@@ -547,7 +719,7 @@
   Menjadi sebuah kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir dalam hari bahagia ini.<br />
   Terima kasih atas segala ucapan, doa, dan perhatian yang diberikan.
   <p class="mt-3 not-italic font-Parisienne text-2xl">See you on our big day!</p>
-  <p class="font-semibold text-3xl pt-6">Bintara & Zahira</p>
+  <p class="font-semibold text-3xl pt-6">David & Nayla</p>
 </div>
 
     </div>
